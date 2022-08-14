@@ -1,0 +1,28 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+}
+
+div {
+    margin-top: 5rem;
+}
+
+button {
+    width: 50%;
+    height: 16rem;
+    background-color: #555;
+    border-width: 0.5rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+button:active {
+    background-color: #444;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
